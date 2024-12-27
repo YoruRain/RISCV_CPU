@@ -1,0 +1,36 @@
+# Vivado 项目文件
+*.jou
+*.log
+*.str
+*.xpr
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.cache/
+*.debug/
+
+# Vivado 生成的目录
+.Xil/
+*.tmp/
+xsim.dir/
+
+# Vivado 工程备份
+*.backup/
+*.backup.*
+*.bak
+
+# 比特流文件（可选，看您是否需要版本控制）
+*.bit
+*.bin
+
+# 日志和报告
+*.rpt
+*.vdi
+*.pb
+*.dcp
+
+# 特定于您项目的文件（从代码中看到的）
+RISCV_CPU.hw/
+RISCV_CPU.cache/
+RISCV_CPU.xpr
